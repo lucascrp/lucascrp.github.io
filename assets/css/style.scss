@@ -1,0 +1,99 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for portfolio */
+
+h1 {
+  color: #333;
+  border-bottom: 2px solid #39c;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #39c;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Skills table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th {
+  background-color: #39c;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Experience section */
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Contact CTA button */
+.contact-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #39c;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 30px 0;
+}
+
+/* Strong text highlighting */
+strong {
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+  
+  table th, table td {
+    padding: 8px;
+  }
+}
