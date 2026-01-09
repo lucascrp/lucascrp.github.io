@@ -423,6 +423,10 @@ nav ul li a.active::after {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
 }
 
+.skills-table-6 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .skill-column {
     padding: 0 20px;
 }
@@ -624,6 +628,10 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
     
+    .skills-table-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
     .skill-column:nth-child(2) {
         border-right: none;
     }
@@ -633,6 +641,10 @@ footer p {
         border-bottom: 1px solid #e9ecef;
         padding-bottom: 30px;
         margin-bottom: 20px;
+    }
+    
+    .skills-table-6 .skill-column:nth-child(4) {
+        border-right: none;
     }
 }
 
