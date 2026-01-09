@@ -318,6 +318,28 @@ nav ul li a.active::after {
 }
 
 /* --- 5.5 Project Cards --- */
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-card-link .project-card-content h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-card-link .project-card-content h3 i {
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card-link:hover .project-card-content h3 i {
+    opacity: 1;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
